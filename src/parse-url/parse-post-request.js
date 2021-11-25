@@ -1,6 +1,6 @@
 import * as path from 'path';
 import { v4 as idPerson } from 'uuid';
-import { parse } from 'path';
+import { parse } from 'path'; 
 
 import { dataBase } from '../database.js';
 import { validationBody } from '../validation-request/validation-body.js';

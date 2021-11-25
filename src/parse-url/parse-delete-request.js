@@ -1,4 +1,4 @@
-import * as path from 'path';
+import * as path from 'path'; 
 
 import { dataBase } from '../database.js';
 import { UrlError, PersonError } from '../errors/users-errors.js';
