@@ -12,7 +12,7 @@ export const parseUrl = (req, res) => {
 
     switch (method) {
       case 'GET':
-        return parseGetRequest(req, res);
+        parseGetRequest(req, res);
         break;
       case 'POST':
         parsePostRequest (req, res);
