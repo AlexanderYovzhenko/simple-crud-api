@@ -1,13 +1,11 @@
 import http from 'http';
 import dotenv from 'dotenv';
 
-
 import { parseUrl } from './parse-url/parse-url.js';
 import { handlerErrors } from './errors/handler-errors.js';
 
-
 dotenv.config();
-const PORT = process.env.PORT;
+const PORT = process.env.PORT || 5000;
 
 
 const runServer =  () => {
