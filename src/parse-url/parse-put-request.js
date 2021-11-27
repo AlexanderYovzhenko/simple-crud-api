@@ -37,6 +37,6 @@ export const parsePutRequest = (req, res) => {
       };    
     });
   } else {
-    throw new UrlError('{"Message": "Url is not correct"}', 404);
+    throw new UrlError('{"Message": "Url format is not correct"}', 404);
   };
 };

@@ -37,7 +37,7 @@ export const parsePostRequest = (req, res) => {
       break; 
 
     default: 
-      throw new UrlError('{"Message": "Url is not correct"}', 404);
+      throw new UrlError('{"Message": "Url format is not correct"}', 404);
       break;
   };
 };

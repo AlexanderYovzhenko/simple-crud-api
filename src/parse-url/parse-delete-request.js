@@ -17,6 +17,6 @@ export const parseDeleteRequest = (req, res) => {
       throw new PersonError(`{"Message": "Person is not find with id" "${urlParse.base}"}`, 404);
     }; 
   } else {
-    throw new UrlError('{"Message": "Url is not correct"}', 404);
+    throw new UrlError('{"Message": "Url format is not correct"}', 404);
   };
 };

@@ -16,7 +16,7 @@ export const parseGetRequest = (req, res) => {
       res.statusCode = 200; 
       res.end(dataBase('GetId', urlParse.base));
     } else { 
-      throw new PersonError(`{"Message": "Person is not find with id" "${urlParse.base}"}`, 404);
+      throw new PersonError(`{"Message": "Person is not find"}`, 404);
     }; 
   };
 };
