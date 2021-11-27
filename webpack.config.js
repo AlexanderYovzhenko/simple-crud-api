@@ -9,7 +9,7 @@ export default{
   mode: 'production',
   entry: './app.js',
   output: {
-    filename: 'main.js',
+    filename: 'bundle.js',
     path: path.resolve(__dirname, 'dist'),
   },
   module: {
