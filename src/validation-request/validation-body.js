@@ -9,6 +9,7 @@ export const validationBody = (body) => {
     if(body[el]) count++;
   });
   if(count === 3) {
+    if(Object.keys(body).includes('id')) throw new ValidationBodyError('{"Message": "Id is generated on the server, id cannot be changed"}', 400);
     if(typeof body.hobbies === 'object' && body.hobbies) {
       return true;
     } else {
