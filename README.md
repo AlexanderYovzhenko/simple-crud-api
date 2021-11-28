@@ -20,7 +20,7 @@ Working with the app:
 5 DELETE /person/{personId}: The server returns the status code 204 if the record is found and deleted  
 
 
-Errors that occur when processing a request for `/person` can be checked by inserting into the code `throw new Error('error')  
+Errors that occur when processing a request for `/person` can be checked by inserting into the code `throw new Error('error')`    
 
 Testing the app:  
 1 Run the application in the first terminal: `npm run start:dev` or `npm run start:prod`  
