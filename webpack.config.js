@@ -7,6 +7,7 @@ import Dotenv from 'dotenv-webpack';
 
 export default{
   mode: 'production',
+  target: 'node',
   entry: './app.js',
   output: {
     filename: 'bundle.js',
